@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd or Even Number Checker</title>
+</head>
+<body>
+    <script type="text/javascript">
+        let num = prompt("Enter a number:");
+        
+        
+        num = parseFloat(num);
+        
+        
+        if (isNaN(num)) {
+            alert("Invalid input. Please enter a numeric value.");
+        } else {
+            
+            if (num % 2 === 0) {
+                alert("The number " + num + " is even.");
+            } else {
+                alert("The number " + num + " is odd.");
+            }
+        
+            
+            num++;
+        
+            
+            alert("After incrementing, the number is " + num + ".");
+        }
+        
+        
+        
+        </script>
+</body>
+</html>
